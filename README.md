@@ -1,16 +1,40 @@
-# todoapp
+# 📋 ToDoApp
 
-A new Flutter project.
+A simple and intuitive To-Do List application built with Flutter and Hive for local storage.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- ➕ Add new tasks
+- ✅ Mark tasks as complete
+- 🗑️ Delete tasks
+- 📂 Persist tasks locally using Hive
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<p align="center">
+  <img src="./screenshots/home.jpeg" alt="Home Screen" width="200">
+  <img src="./screenshots/newtask.jpeg" alt="New Task" width="200">
+  <img src="./screenshots/complete.jpeg" alt="Task Completed" width="200">
+  <img src="./screenshots/delete.jpeg" alt="Delete Task" width="200">
+</p>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🛠️ Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/ishansasane/todoapp.git
+   ```
+   ```bash
+   cd todoapp
+   ```
+   ```bash
+   flutter pub get
+   ```
+   ```bash
+   flutter run
+   ```
+
